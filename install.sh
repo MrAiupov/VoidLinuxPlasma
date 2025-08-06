@@ -1,3 +1,7 @@
+# синхронизация репозиториев и обновление пакетов
+sudo xbps-install -u xbps
+sudo xbps-install -Suv
+
 # Установка дополнительных репозиторие Войда, с драйверами аудио, видео, блютуз, сторонних программ и так далее
 sudo xbps-install void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
 
